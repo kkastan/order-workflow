@@ -1,0 +1,21 @@
+{
+  "name": "owfm",
+  "version": "1.0.0",
+  "description": "Order Workflow Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine-node spec --forceexit --captureExceptions",
+    "start": "node server.js"
+  },
+  "author": "Karl Kastan",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^4.3.0",
+    "usher": "^0.10.7",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "request": "^2.79.0"
+  }
+}
